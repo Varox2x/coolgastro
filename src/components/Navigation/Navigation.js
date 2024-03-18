@@ -6,13 +6,14 @@ const Navigation = () => {
         <header className={navigationStyles.container}>
             <div className={navigationStyles.wrapper}>
                 <Logo />
-                <nav>
+                <div />
+                {/* <nav>
                     <ul className={navigationStyles.menu}>
                         <li>Home</li>
                         <li>Usługi</li>
                         <li>Kontakt</li>
                     </ul>
-                </nav>
+                </nav> */}
             </div>
         </header>
     )

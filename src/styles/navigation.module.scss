@@ -1,5 +1,6 @@
 .container {
   position: absolute;
+  z-index: 2;
   top: 0;
   left: 0;
   right: 0;
@@ -15,6 +16,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 10px;
   }
 }
 

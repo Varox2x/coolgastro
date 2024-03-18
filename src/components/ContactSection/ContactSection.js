@@ -11,7 +11,7 @@ const ContactSection = () => {
                 {/* <h6 className={contactSectionStyles.title} >
                     Usługi
                 </h6> */}
-                <div className={contactSectionStyles.row}>
+                {/* <div className={contactSectionStyles.row}>
                     <div className={contactSectionStyles.column}>
 
                         <div style={{ width: '70%', height: '300px', position: 'relative' }} >
@@ -29,7 +29,7 @@ const ContactSection = () => {
                             <br />- meble chłodnicze
                             <br />- komory</p>
                     </div>
-                </div>
+                </div> */}
                 <h6 style={{ marginTop: '45px' }} className={contactSectionStyles.title} >
                     Kontakt
                 </h6>
@@ -37,22 +37,23 @@ const ContactSection = () => {
                     <div className={contactSectionStyles.column}>
                         <ul className={contactSectionStyles.contact_list}>
                             <li>
-                                <MdOutlineEmail size={35} />
+                                <FiPhone style={{ color: '#005AA4' }} size={35} />
                                 <p>+48 123 123 123</p>
                             </li>
                             <li>
-                                <FiPhone size={35} />
+                                <MdOutlineEmail style={{ color: '#005AA4' }} size={35} />
                                 <p>email@gmail.com</p>
                             </li>
                         </ul>
                     </div>
                     <div className={contactSectionStyles.column}>
 
-                        <div style={{ width: '100%', height: '300px', position: 'relative' }} >
+                        <div style={{ width: '100%', height: '200px', position: 'relative' }} >
                             <Image
-                                src="/undraw_Contact_us_re_4qqt.png"
+                                src="/kontakt.png"
                                 layout='fill'
                                 objectFit='contain'
+                                alt={'zdjecie'}
                             />
                         </div>
 
